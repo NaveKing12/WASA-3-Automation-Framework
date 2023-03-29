@@ -1,17 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[ Click on Organizations link Successful]]>
+    </line>
+    <line>
+      <![CDATA[Click on Create Organization look up image Successful]]>
+    </line>
+    <line>
+      <![CDATA[Create Organization with mandatory details Successful]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to contacts Link Successful]]>
+    </line>
+    <line>
+      <![CDATA[Click on create contact look up image Successful]]>
+    </line>
+    <line>
+      <![CDATA[Click on create contact and Save Successful]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-03-20T12:47:31 IST" name="Default suite" finished-at="2023-03-20T12:47:31 IST" duration-ms="97">
+  <suite started-at="2023-03-29T15:42:27 IST" name="Default suite" finished-at="2023-03-29T15:43:43 IST" duration-ms="76462">
     <groups>
+      <group name="SmokeSuite">
+        <method signature="ContactsCreateWithOrganzation.ContactsCreateWithOrganzationTest()[pri:0, instance:vtiger.ContactsTest.ContactsCreateWithOrganzation@2b662a77]" name="ContactsCreateWithOrganzationTest" class="vtiger.ContactsTest.ContactsCreateWithOrganzation"/>
+      </group> <!-- SmokeSuite -->
+      <group name="Regration">
+        <method signature="ContactsCreateWithOrganzation.ContactsCreateWithOrganzationTest()[pri:0, instance:vtiger.ContactsTest.ContactsCreateWithOrganzation@2b662a77]" name="ContactsCreateWithOrganzationTest" class="vtiger.ContactsTest.ContactsCreateWithOrganzation"/>
+      </group> <!-- Regration -->
     </groups>
-    <test started-at="2023-03-20T12:47:31 IST" name="Default test" finished-at="2023-03-20T12:47:31 IST" duration-ms="97">
-      <class name="practice.ReadDatafromCmdLine">
-        <test-method signature="readData()[pri:0, instance:practice.ReadDatafromCmdLine@441772e]" started-at="2023-03-20T12:47:31 IST" name="readData" finished-at="2023-03-20T12:47:31 IST" duration-ms="12" status="PASS">
+    <test started-at="2023-03-29T15:42:27 IST" name="Default test" finished-at="2023-03-29T15:43:43 IST" duration-ms="76462">
+      <class name="vtiger.ContactsTest.ContactsCreateWithOrganzation">
+        <test-method is-config="true" signature="bsConfigur()[pri:0, instance:vtiger.ContactsTest.ContactsCreateWithOrganzation@2b662a77]" started-at="2023-03-29T15:42:27 IST" name="bsConfigur" finished-at="2023-03-29T15:42:27 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- readData -->
-      </class> <!-- practice.ReadDatafromCmdLine -->
+        </test-method> <!-- bsConfigur -->
+        <test-method is-config="true" signature="bcConfigur()[pri:0, instance:vtiger.ContactsTest.ContactsCreateWithOrganzation@2b662a77]" started-at="2023-03-29T15:42:27 IST" name="bcConfigur" finished-at="2023-03-29T15:42:45 IST" duration-ms="17566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfigur -->
+        <test-method is-config="true" signature="BmConfigur()[pri:0, instance:vtiger.ContactsTest.ContactsCreateWithOrganzation@2b662a77]" started-at="2023-03-29T15:42:45 IST" name="BmConfigur" finished-at="2023-03-29T15:42:56 IST" duration-ms="11428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BmConfigur -->
+        <test-method signature="ContactsCreateWithOrganzationTest()[pri:0, instance:vtiger.ContactsTest.ContactsCreateWithOrganzation@2b662a77]" started-at="2023-03-29T15:42:56 IST" name="ContactsCreateWithOrganzationTest" finished-at="2023-03-29T15:43:40 IST" duration-ms="44223" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ Click on Organizations link Successful]]>
+            </line>
+            <line>
+              <![CDATA[Click on Create Organization look up image Successful]]>
+            </line>
+            <line>
+              <![CDATA[Create Organization with mandatory details Successful]]>
+            </line>
+            <line>
+              <![CDATA[Navigate to contacts Link Successful]]>
+            </line>
+            <line>
+              <![CDATA[Click on create contact look up image Successful]]>
+            </line>
+            <line>
+              <![CDATA[Click on create contact and Save Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ContactsCreateWithOrganzationTest -->
+        <test-method is-config="true" signature="amConfigur()[pri:0, instance:vtiger.ContactsTest.ContactsCreateWithOrganzation@2b662a77]" started-at="2023-03-29T15:43:40 IST" name="amConfigur" finished-at="2023-03-29T15:43:43 IST" duration-ms="2392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfigur -->
+        <test-method is-config="true" signature="acConfigur()[pri:0, instance:vtiger.ContactsTest.ContactsCreateWithOrganzation@2b662a77]" started-at="2023-03-29T15:43:43 IST" name="acConfigur" finished-at="2023-03-29T15:43:43 IST" duration-ms="767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfigur -->
+        <test-method is-config="true" signature="asConfigur()[pri:0, instance:vtiger.ContactsTest.ContactsCreateWithOrganzation@2b662a77]" started-at="2023-03-29T15:43:43 IST" name="asConfigur" finished-at="2023-03-29T15:43:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asConfigur -->
+      </class> <!-- vtiger.ContactsTest.ContactsCreateWithOrganzation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
